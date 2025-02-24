@@ -120,7 +120,7 @@ body{
 .content{
     color: white;
     padding: 20px 0 30px 55px;
-    max-width: 700px;
+    max-width: 650px;
     font-size: 25px;
     font-style: italic;
     color: rgb(0, 255, 255);
@@ -386,13 +386,12 @@ body{
 
     .container {
         flex-direction: column; 
-        gap: 15px;
-        margin-right: 15px;
+        gap: 20px;
+        padding:25px;
     }
 
     .feTech, .beTech {
-        width: 90%; 
-        margin-left: 5%;
+        width: 100%; 
         display: flex;
         overflow: hidden;
     }
