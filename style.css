@@ -348,7 +348,8 @@ body{
 
 /*                footer               */
 
-@media only screen and (min-width: 600px) and (max-width: 932px) and (orientation: landscape) {
+@media only screen and (max-width: 600px) {
+    
     .Portfolio {
         background-color: transparent;
     }
