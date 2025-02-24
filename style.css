@@ -127,13 +127,12 @@ body{
 }
 
 .pic{
-    margin-left: 370px;
+    margin-left: 400px;
     margin-top: 20px; 
     width: 250px;
     height:250px;
     align-items: center;
     border-radius: 50%;
-    
 }
 
 .D_link{   
