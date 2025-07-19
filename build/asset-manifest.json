@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/JaiPortFolio/static/css/main.bf538fe7.css",
+    "main.js": "/JaiPortFolio/static/js/main.08dd9f86.js",
+    "static/media/RecipeSharing.png": "/JaiPortFolio/static/media/RecipeSharing.8b7c90c1ba4b2c69cc97.png",
+    "static/media/SS3.png": "/JaiPortFolio/static/media/SS3.9a2a54384bfb0b64d3cf.png",
+    "static/media/HeroImage11.jpg": "/JaiPortFolio/static/media/HeroImage11.4cae67ca9edb3dc0ad21.jpg",
+    "static/media/SS2.png": "/JaiPortFolio/static/media/SS2.5d76ac97f31200389d97.png",
+    "static/media/SS1.png": "/JaiPortFolio/static/media/SS1.95483b1bf3d6ae8f15a6.png",
+    "index.html": "/JaiPortFolio/index.html",
+    "main.bf538fe7.css.map": "/JaiPortFolio/static/css/main.bf538fe7.css.map",
+    "main.08dd9f86.js.map": "/JaiPortFolio/static/js/main.08dd9f86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.08dd9f86.js"
+  ]
+}
