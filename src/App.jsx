@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes'
 import Navbar from "./components/Navbar/index";
 import './App.css';
@@ -33,6 +33,7 @@ function App() {
     <>
       <Snowfall
         snowflakeCount={100}
+        color="blue"
         style={{
           position: 'fixed',
           width: '100vw',

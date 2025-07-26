@@ -1,19 +1,5 @@
 import React from 'react';
-import {
-  Nav,
-  NavLink,
-  NavbarContainer,
-  Span,
-  NavLogo,
-  NavItems,
-  GitHubButton,
-  ButtonContainer,
-  MobileIcon,
-  MobileMenu,
-  MobileNavLogo,
-  MobileLink,
-} from './NavbarStyledComponent';
-
+import {Nav,NavLink,NavbarContainer,Span,NavLogo,NavItems,GitHubButton,ButtonContainer,MobileIcon,MobileMenu,MobileNavLogo,MobileLink,} from './NavbarStyledComponent';
 import { HiChevronDoubleLeft } from 'react-icons/hi';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';

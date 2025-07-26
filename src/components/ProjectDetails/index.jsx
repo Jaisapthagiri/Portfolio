@@ -197,7 +197,7 @@ const index = ({ openModal, setOpenModal }) => {
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
                     <Image src={project?.image} />
-                    <Title>{project?.title}</Title>0
+                    <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
                         {project?.tags.map((tag) => (
@@ -207,13 +207,12 @@ const index = ({ openModal, setOpenModal }) => {
                     <Desc>{project?.description}</Desc>
                     {project.member && (
                         <>
-                            <Label>Members</Label>
                             <Members>
                                 {project?.member.map((member) => (
                                     <Member>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />
                                         </a>
                                     </Member>
@@ -222,7 +221,13 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        <Button
+                            href={project?.github}
+                            target="new"
+                            rel="noopener noreferrer"
+                        >
+                            View Live App
+                        </Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>

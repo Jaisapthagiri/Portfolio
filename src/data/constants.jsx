@@ -1,9 +1,9 @@
 import BasicPortfolio from '../images/BasicPortfolio.png'
 import HeroAvatar from '../images/HeroImage11.jpg'
 import Recipesharing from '../images/RecipeSharing.png'
-import {kec} from '../components/EduImages/index'
-import {kasc} from '../components/EduImages/index'
-import {knmhss} from '../components/EduImages/index'
+import { kec } from '../components/EduImages/index'
+import { kasc } from '../components/EduImages/index'
+import { knmhss } from '../components/EduImages/index'
 import Freshcart from '../images/Freshcart.png'
 import Chatapp from '../images/Chatapp.png'
 
@@ -23,7 +23,7 @@ export const Bio = {
     "https://drive.google.com/file/d/10h9VeAYxaGmzw5zBnOxfqyfPFhZLIBVK/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jaisapthagiri-j-869a25319/",
   insta: "https://www.instagram.com/i_jai06/",
-  facebook:"https://www.facebook.com/profile.php?id=100035262488857"
+  facebook: "https://www.facebook.com/profile.php?id=100035262488857"
 };
 
 export const skills = [
@@ -49,11 +49,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
-    {
-      name: "React Js",
-      image:
-        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-    },
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
     ],
   },
   {
@@ -175,7 +175,7 @@ export const projects = [
       "JavaScript",
       "ReactJs",
       "Next JS",
-   ],
+    ],
     category: "RecipeSharing",
     member: [
       {
@@ -184,6 +184,7 @@ export const projects = [
         github: "https://foodie-lilac-rho.vercel.app",
       },
     ],
+    github: "https://foodie-lilac-rho.vercel.app",
   },
   {
     id: 1,
@@ -200,7 +201,7 @@ export const projects = [
       "Node JS",
       "Express JS",
       "MongoDB"
-   ],
+    ],
     category: "Freshcart",
     member: [
       {
@@ -209,6 +210,7 @@ export const projects = [
         github: "https://freshbasket-kappa.vercel.app",
       },
     ],
+    github: "https://freshbasket-kappa.vercel.app",
   },
   {
     id: 2,
@@ -225,7 +227,7 @@ export const projects = [
       "Node JS",
       "Express JS",
       "MongoDB"
-   ],
+    ],
     category: "ChatApp",
     member: [
       {
@@ -234,5 +236,6 @@ export const projects = [
         github: "https://chat-self-omega-49.vercel.app",
       },
     ],
+    github: "https://chat-self-omega-49.vercel.app"
   },
 ];
