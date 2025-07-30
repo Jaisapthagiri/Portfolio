@@ -1,0 +1,86 @@
+import Recipesharing from '../assets/RecipeSharing.png'
+import Freshcart from '../assets/Freshcart.png';
+import Chatapp from '../assets/Chatapp.png';
+import  jai from '../assets/jai.jpg';
+
+const Proj = [
+  {
+    id: 0,
+    title: "Recipe Sharing Hub",
+    description:
+      "RecipeSharingHub is a platform where users can explore, share, and manage their favorite recipes, making cooking and food discovery easy and enjoyable.",
+    image:
+      Recipesharing,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJs",
+      "Next JS",
+    ],
+    category: "RecipeSharing",
+    member: [
+      {
+        name: "Jaisapthagiri",
+        img:  jai,
+      },
+    ],
+    github: "https://github.com/Jaisapthagiri/RecipeSharing",
+    link: "https://foodie-lilac-rho.vercel.app",
+  },
+  {
+    id: 1,
+    title: "Fresh Basket",
+    description:
+      "Freshcart is a full-featured grocery e-commerce platform that enables users to browse, purchase, and manage fresh produce and daily essentials with a seamless and secure shopping experience.",
+    image:
+      Freshcart,
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "ReactJs",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    category: "Grocery App",
+    member: [
+      {
+        name: "Jaisapthagiri",
+        img:  jai,
+      },
+    ],
+    github: "https://github.com/Jaisapthagiri/FreshBasket",
+    link: "https://freshbasket-kappa.vercel.app",
+  },
+  {
+    id: 2,
+    title: "Quick Chat",
+    description:
+      "QuickChat is a real-time messaging platform that enables users to connect, communicate, and share instantly with a seamless and secure chat experience.",
+    image:
+      Chatapp,
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "ReactJs",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    category: "ChatApp",
+    member: [
+      {
+        name: "Jaisapthagiri",
+        img:  jai,
+      },
+    ],
+    github: "https://github.com/Jaisapthagiri/QuickChat",
+    link: "https://chat-self-omega-49.vercel.app"
+  },
+];
+
+
+export default Proj;
