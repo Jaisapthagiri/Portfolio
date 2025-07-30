@@ -33,7 +33,7 @@ function App() {
         <div id="certi" data-aos="fade-up">
           <Certi />
         </div>
-        <div id="contact" data-aos="fade-up">
+        <div id="contact" data-aos="fade-right">
           <Contact />
         </div>
         <div id="footer" data-aos="fade-up">
