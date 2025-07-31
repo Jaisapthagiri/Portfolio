@@ -42,13 +42,17 @@ const ProjectCards = ({ project }) => {
                 className="w-9 h-9 rounded-full object-cover -ml-2 border-2 border-zinc-100 dark:border-zinc-800 shadow"
               />
             ))}
-            <div className="block sm:hidden ml-auto">
-              <Button>View App</Button>
-            </div>
+
+            {/* Show "View App" button only on small screens and if link exists */}
+            {project.link && (
+              <div className="block sm:hidden ml-auto">
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <Button>View App</Button>
+                </a>
+              </div>
+            )}
           </div>
         </div>
-
-
 
         {/* Back Side */}
         <div className="absolute w-full [backface-visibility:hidden] [transform:rotateY(180deg)]  text-white rounded-xl p-5 flex flex-col justify-between">
