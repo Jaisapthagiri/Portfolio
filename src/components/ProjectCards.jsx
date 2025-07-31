@@ -2,8 +2,8 @@ import Button from "./Button";
 
 const ProjectCards = ({ project }) => {
   return (
-    <div className="group w-[330px] h-[490px] mx-auto [perspective:1000px] cursor-pointer mb-10">
-      <div className="relative w-full h-full transition-transform duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] rounded-xl shadow-xl">
+    <div className="group w-[330px] h-[490px] mx-auto mb-10 cursor-pointer md:[perspective:1000px]">
+      <div className="relative w-full h-full rounded-xl shadow-xl transition-transform duration-1000 [transform-style:preserve-3d] md:group-hover:[transform:rotateY(180deg)]">
 
         <div className="absolute w-full h-full mt-5 [backface-visibility:hidden] bg-zinc-100 dark:bg-zinc-800 rounded-xl p-4 flex flex-col gap-3">
           <img
@@ -42,8 +42,13 @@ const ProjectCards = ({ project }) => {
                 className="w-9 h-9 rounded-full object-cover -ml-2 border-2 border-zinc-100 dark:border-zinc-800 shadow"
               />
             ))}
+            <div className="block sm:hidden ml-auto">
+              <Button>View App</Button>
+            </div>
           </div>
         </div>
+
+
 
         {/* Back Side */}
         <div className="absolute w-full [backface-visibility:hidden] [transform:rotateY(180deg)]  text-white rounded-xl p-5 flex flex-col justify-between">

@@ -30,7 +30,7 @@ function App() {
         <div id="education" data-aos="fade-up">
           <Education />
         </div>
-        <div id="certi" data-aos="fade-up">
+        <div id="certi">
           <Certi />
         </div>
         <div id="contact" data-aos="fade-right">

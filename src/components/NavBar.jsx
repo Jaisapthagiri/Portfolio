@@ -13,7 +13,7 @@ const NavBar = () => {
 
     return (
         <div>
-            <nav className="fixed lg:top-0 bg-black top-3 w-full md:px-16 xl:px-32 flex items-center justify-between z-20 transition-all md:top-2">
+            <nav className="fixed lg:top-0 bg-black sm:top-0  w-full md:px-16 xl:px-32 flex items-center justify-between z-20 transition-all">
                 <NavLink to="/home" className="text-red-600 mt-2 font-bold text-5xl">Jai</NavLink>
 
                 <ul className="md:flex md:gap-10 p-2 md:right-10 hidden items-center ml-25 gap-10">

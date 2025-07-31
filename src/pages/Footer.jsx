@@ -50,14 +50,6 @@ const Footer = () => {
                             <path d="M9 18c-4.51 2-5-2-7-2" stroke="#fff" strokeOpacity=".5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </a>
-                    <a href="https://www.instagram.com/i_jai06/"
-                        target='_blank'
-                        rel="noopener noreferrer"
-                        className="hover:-translate-y-0.5 transition-all duration-300">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" className="fill-black hover:fill-blue-500 filter transition-all duration-300">
-                            <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2" stroke="#fff" strokeOpacity=".5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                    </a>
                 </div>
                 <p className="mt-8 text-center">Copyright © {new Date().getFullYear()} Jai. All rights reservered.</p>
             </footer>
