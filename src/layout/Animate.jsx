@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 const Animate = ({ children }) => {
   useEffect(() => {
-    const isSmallScreen = window.innerWidth < 640; // Tailwind 'sm' = 640px
+    const isSmallScreen = window.innerWidth > 640; 
 
     AOS.init({
       duration: 2000,
