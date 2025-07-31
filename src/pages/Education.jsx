@@ -2,7 +2,7 @@ import Edu from "../util/Edu";
 
 const Education = () => {
   return (
-    <section id="education" className="py-12 px-4 md:px-8" data-aos="fade-left">
+    <section className="py-12 px-4 md:px-8" data-aos="fade-left">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-[40px] text-gray-200/50 mb-4 hover:text-white">Education</h2>
         <p className="text-gray-600 text-2xl mb-10 max-w-xl mx-auto">

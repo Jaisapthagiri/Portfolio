@@ -24,7 +24,7 @@ function App() {
         <div id="skill" data-aos="fade-right">
           <Skills />
         </div>
-        <div>
+        <div id="projects" >
           < Project />
         </div>
         <div id="education" data-aos="fade-up">

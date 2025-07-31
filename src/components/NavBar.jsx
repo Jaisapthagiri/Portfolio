@@ -40,7 +40,7 @@ const NavBar = () => {
                 </button>
 
                 <div
-                    className={`absolute top-[60px] bg-gray-800/50 rounded-md w-full shadow-lg text-white transition-all duration-300 ease-in-out z-50 ${isMenuOpen ? 'block' : 'hidden'
+                    className={`fixed top-[60px] left-0 right-0 bg-gray-800/50 rounded-md w-full shadow-lg text-white transition-all duration-300 ease-in-out z-50 ${isMenuOpen ? 'block' : 'hidden'
                         } md:hidden`}
                 >
                     <ul className="flex flex-col items-start px-4 py-2 gap-2">
