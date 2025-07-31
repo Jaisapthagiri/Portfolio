@@ -7,14 +7,14 @@ const HomeL = () => {
   return (
     <div className='lg:ml-20 sm:px-2 md:px-10 lg:py-0 sm:ml-10 mx-auto'>
       <div>
-        <h1 className='text-white text-5xl sm:text-4xl md:text-5xl font-bold'>Hi, I am</h1>
-        <h1 className="text-4xl sm:text-3xl md:text-4xl font-[900] mb-4 ml-4 sm:ml-4 uppercase text-red-600 mt-5">{Bio.name}</h1>
+        <h1 className='text-teal-400 text-5xl sm:text-4xl md:text-5xl font-bold'>Hi, I am</h1>
+        <h1 className="text-4xl sm:text-3xl md:text-4xl font-[900] mb-4 ml-4 sm:ml-4 uppercase text-purple-500 mt-5">{Bio.name}</h1>
       </div>
       <div >
-        <h1 className='text-white ml-5 font-medium text-3xl sm:text-2xl md:text-3xl'>
-          I&nbsp; am&nbsp; a&nbsp; 
+        <h1 className='text-blue-400 ml-5 font-medium text-3xl sm:text-2xl md:text-3xl'>
+          I&nbsp; am&nbsp; a&nbsp; &nbsp;
           <br className='block sm:hidden' />
-          <span className='text-amber-100 '>
+          <span className='text-amber-600 font-bold'>
             <Typing /></span></h1>
       </div>
       <div className="w-full max-w-5xl mt-5">

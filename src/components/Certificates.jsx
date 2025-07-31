@@ -4,6 +4,7 @@ import SS2 from '../assets/SS2.png';
 import SS3 from '../assets/SS3.png';
 
 const Certificates = () => {
+
     const containerRef = useRef(null);
     const [currentSlide, setCurrentSlide] = useState(0);
     const images = [SS1, SS2, SS3];
@@ -18,7 +19,7 @@ const Certificates = () => {
 
     return (
         <div>
-            <div className="flex flex-col mt-5 items-center">
+            <div className="flex flex-col mt-5 items-center" data-aos="fade-right">
                 <div className="w-full max-w-2xl overflow-hidden relative p-3 rounded-2xl">
                     <div
                         ref={containerRef}
