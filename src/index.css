@@ -2,23 +2,22 @@
 
 @import "tailwindcss";
 
-*{
+* {
   font-family: "Outfit", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden; 
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
+  overflow-x: hidden;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;   
 }
 
 ::-webkit-scrollbar {
   display: none; 
-}
-
-body {
-  -ms-overflow-style: none;  
-  scrollbar-width: none;   
 }

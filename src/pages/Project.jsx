@@ -11,9 +11,18 @@ const Project = () => {
         </h1>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-2 md:gap-3 md:p-6 lg:px-40" data-aos="fade-right" >
-        {Proj.map((project) => (
-          <ProjectCards key={project.id} project={project} />
-        ))}
+        {Proj.map((project, idx) => {
+          // For every 4th card (index 3, 6, 9, ...), center it under the gap between 1st and 2nd
+          const isStaggered = (idx + 1) % 3 === 1 && idx !== 0;
+          return (
+            <div
+              key={project.id}
+              className={isStaggered ? 'col-span-1 col-start-2 flex justify-center' : ''}
+            >
+              <ProjectCards project={project} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
