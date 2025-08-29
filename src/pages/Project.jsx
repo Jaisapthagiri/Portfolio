@@ -18,24 +18,14 @@ const Project = () => {
       </div>
 
       <div
-        className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-2 md:gap-3 md:p-6 lg:px-40"
+        className="flex flex-wrap justify-center items-stretch gap-8 px-4 md:px-10 lg:px-32 xl:px-40"
         data-aos="fade-right"
       >
-        {Proj.map((project, idx) => {
-          const isStaggered = (idx + 1) % 3 === 1 && idx !== 0;
-          return (
-            <div
-              key={project.id}
-              className={
-                isStaggered
-                  ? 'md:col-span-1 md:col-start-2 flex justify-center'
-                  : ''
-              }
-            >
-              <ProjectCards project={project} />
-            </div>
-          );
-        })}
+        {Proj.map((project) => (
+          <div key={project.id} className="flex justify-center w-full sm:w-auto">
+            <ProjectCards project={project} />
+          </div>
+        ))}
       </div>
     </div>
   );
