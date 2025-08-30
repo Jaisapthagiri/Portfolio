@@ -29,8 +29,8 @@ const Proj = [
         img: jai,
       },
     ],
-    github: "https://github.com/Jaisapthagiri/FreshBasket",
-    link: "https://freshbasket-kappa.vercel.app",
+    github: "https://github.com/Jaisapthagiri/GreenCart",
+    link: "https://greencart-olive.vercel.app",
   },
   {
     id: 1,
