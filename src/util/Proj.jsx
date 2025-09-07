@@ -10,7 +10,7 @@ const Proj = [
     id: 0,
     title: "Fresh Basket",
     description:
-      "Freshcart is a full-featured grocery e-commerce platform that enables users to browse, purchase, and manage fresh produce and daily essentials with a seamless and secure shopping experience.",
+      "It is a full-featured e-commerce platform that enables users to browse, purchase, and manage products across various categories with a seamless and secure shopping experience.",
     image:
       Freshcart,
     tags: [
@@ -29,8 +29,8 @@ const Proj = [
         img: jai,
       },
     ],
-    github: "https://github.com/Jaisapthagiri/GreenCart",
-    link: "https://greencart-olive.vercel.app",
+    github: "https://github.com/Jaisapthagiri/Ecommerce",
+    link: "https://ecom-fe-six.vercel.app",
   },
   {
     id: 1,
