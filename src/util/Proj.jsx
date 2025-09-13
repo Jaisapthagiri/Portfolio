@@ -156,7 +156,7 @@ const Proj = [
       },
     ],
     github: "https://github.com/Jaisapthagiri/Forever",
-    link: "https://vercel.com/jaisapthagiris-projects/forever",
+    link: "https://forever-olive.vercel.app/",
   },
 
 ];
