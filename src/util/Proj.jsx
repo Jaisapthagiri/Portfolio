@@ -4,6 +4,7 @@ import Chatapp from '../assets/Chatapp.png';
 import Bondly from '../assets/Bondly.png';
 import Quick from '../assets/QuickGPT.png';
 import jai from '../assets/jai.jpg';
+import Forever from '../assets/Forever.png';
 
 const Proj = [
   {
@@ -135,7 +136,29 @@ const Proj = [
     github: "https://github.com/Jaisapthagiri/RecipeSharing",
     link: "https://foodie-lilac-rho.vercel.app",
   },
-  
+  {
+    id: 5,
+    title: "Forever",
+    description:
+      "Forever is a modern e-commerce platform built with React and Tailwind CSS, designed for a smooth and responsive shopping experience with product browsing, cart, and checkout functionality.",
+    image: Forever,
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "ReactJs"
+    ],
+    category: "Ecommerce",
+    member: [
+      {
+        name: "Jaisapthagiri",
+        img: jai,
+      },
+    ],
+    github: "https://github.com/Jaisapthagiri/Forever",
+    link: "https://vercel.com/jaisapthagiris-projects/forever",
+  },
+
 ];
 
 
