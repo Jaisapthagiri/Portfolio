@@ -1,4 +1,4 @@
-import Recipesharing from '../assets/RecipeSharing.png'
+import EMP from '../assets/EMP.png'
 import Freshcart from '../assets/Freshcart.png';
 import Chatapp from '../assets/Chatapp.png';
 import Bondly from '../assets/Bondly.png';
@@ -9,32 +9,6 @@ import Forever from '../assets/Forever.png';
 const Proj = [
   {
     id: 0,
-    title: "Fresh Basket",
-    description:
-      "It is a full-featured e-commerce platform that enables users to browse, purchase, and manage products across various categories with a seamless and secure shopping experience.",
-    image:
-      Freshcart,
-    tags: [
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "ReactJs",
-      "Node JS",
-      "Express JS",
-      "MongoDB"
-    ],
-    category: "Grocery App",
-    member: [
-      {
-        name: "Jaisapthagiri",
-        img: jai,
-      },
-    ],
-    github: "https://github.com/Jaisapthagiri/Ecommerce",
-    link: "https://ecom-fe-six.vercel.app",
-  },
-  {
-    id: 1,
     title: "Bondly",
     description:
       "Bondly is a dynamic social media platform that empowers users to connect, share, and engage with friends and communities through a seamless and interactive experience.",
@@ -47,7 +21,8 @@ const Proj = [
       "ReactJs",
       "Node JS",
       "Express JS",
-      "MongoDB"
+      "MongoDB",
+      "SSE"
     ],
     category: "Social Media App",
     member: [
@@ -60,33 +35,34 @@ const Proj = [
     link: "https://bondlyfe.vercel.app/",
   },
   {
-    id: 2,
-    title: "Quick Chat",
+    id: 1,
+    title: "Employee Task Management App",
     description:
-      "QuickChat is a real-time messaging platform that enables users to connect, communicate, and share instantly with a seamless and secure chat experience.",
+      "A full-stack Employee Task Management System built using Node.js, Express, MongoDB, React, and Socket.io. The system enables Admins and Employees to collaborate in real time — managing tasks, tracking progress, and chatting instantly.",
     image:
-      Chatapp,
+      EMP,
     tags: [
       "HTML",
       "Tailwind CSS",
       "JavaScript",
       "ReactJs",
       "Node JS",
-      "Express JS",
-      "MongoDB"
+      "Express Js",
+      "MongoDB",
+      "Socket.io"
     ],
-    category: "ChatApp",
+    category: "Task App",
     member: [
       {
         name: "Jaisapthagiri",
         img: jai,
       },
     ],
-    github: "https://github.com/Jaisapthagiri/QuickChat",
-    link: "https://chat-self-omega-49.vercel.app"
+    github: "https://github.com/Jaisapthagiri/emp",
+    link: "https://emp-sand.vercel.app",
   },
   {
-    id: 3,
+    id: 2,
     title: "Quick GPT",
     description:
       "Quick Chat is a full-stack AI chat application built with the MERN stack and Tailwind CSS, integrating OpenAI’s API as the core engine for generating intelligent responses. The app allows users to interact in real-time with AI, featuring a responsive UI, secure backend, and efficient API handling for smooth conversation flow.",
@@ -113,28 +89,56 @@ const Proj = [
     link: "https://quickchat-three.vercel.app/",
   },
   {
-    id: 4,
-    title: "Recipe Sharing Hub",
+    id: 3,
+    title: "Fresh Basket",
     description:
-      "RecipeSharingHub is a platform where users can explore, share, and manage their favorite recipes, making cooking and food discovery easy and enjoyable.",
+      "It is a full-featured e-commerce platform that enables users to browse, purchase, and manage products across various categories with a seamless and secure shopping experience.",
     image:
-      Recipesharing,
+      Freshcart,
     tags: [
       "HTML",
-      "CSS",
+      "Tailwind CSS",
       "JavaScript",
       "ReactJs",
-      "Next JS",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
     ],
-    category: "RecipeSharing",
+    category: "Grocery App",
     member: [
       {
         name: "Jaisapthagiri",
         img: jai,
       },
     ],
-    github: "https://github.com/Jaisapthagiri/RecipeSharing",
-    link: "https://foodie-lilac-rho.vercel.app",
+    github: "https://github.com/Jaisapthagiri/Ecommerce",
+    link: "https://ecom-fe-six.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Quick Chat",
+    description:
+      "QuickChat is a real-time messaging platform that enables users to connect, communicate, and share instantly with a seamless and secure chat experience.",
+    image:
+      Chatapp,
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "ReactJs",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    category: "ChatApp",
+    member: [
+      {
+        name: "Jaisapthagiri",
+        img: jai,
+      },
+    ],
+    github: "https://github.com/Jaisapthagiri/QuickChat",
+    link: "https://chat-self-omega-49.vercel.app"
   },
   {
     id: 5,
@@ -156,7 +160,7 @@ const Proj = [
       },
     ],
     github: "https://github.com/Jaisapthagiri/Forever",
-    link: "https://forever-olive.vercel.app/",
+    link: "https://forever-olive.vercel.app",
   },
 
 ];
