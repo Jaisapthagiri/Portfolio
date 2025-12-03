@@ -12,7 +12,7 @@ const HomeL = () => {
       </div>
       <div >
         <h1 className='text-blue-400 ml-5 font-medium text-3xl sm:text-2xl md:text-3xl'>
-          I&nbsp; am&nbsp; a&nbsp; &nbsp;
+          I&nbsp; am&nbsp;&nbsp;
           <br className='block sm:hidden' />
           <span className='text-amber-600 font-bold'>
             <Typing /></span></h1>

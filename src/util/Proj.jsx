@@ -4,7 +4,6 @@ import Chatapp from '../assets/Chatapp.png';
 import Bondly from '../assets/Bondly.png';
 import Quick from '../assets/QuickGPT.png';
 import jai from '../assets/jai.jpg';
-import Forever from '../assets/Forever.png';
 
 const Proj = [
   {
@@ -62,6 +61,32 @@ const Proj = [
     link: "https://emp-sand.vercel.app",
   },
   {
+    id: 3,
+    title: "Fresh Basket",
+    description:
+      "It is a full-featured e-commerce platform that enables users to browse, purchase, and manage products across various categories with a seamless and secure shopping experience.",
+    image:
+      Freshcart,
+    tags: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "ReactJs",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    category: "Grocery App",
+    member: [
+      {
+        name: "Jaisapthagiri",
+        img: jai,
+      },
+    ],
+    github: "https://github.com/Jaisapthagiri/Ecommerce",
+    link: "https://ecom-fe-six.vercel.app",
+  },
+  {
     id: 2,
     title: "Quick GPT",
     description:
@@ -89,32 +114,6 @@ const Proj = [
     link: "https://quickchat-three.vercel.app/",
   },
   {
-    id: 3,
-    title: "Fresh Basket",
-    description:
-      "It is a full-featured e-commerce platform that enables users to browse, purchase, and manage products across various categories with a seamless and secure shopping experience.",
-    image:
-      Freshcart,
-    tags: [
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "ReactJs",
-      "Node JS",
-      "Express JS",
-      "MongoDB"
-    ],
-    category: "Grocery App",
-    member: [
-      {
-        name: "Jaisapthagiri",
-        img: jai,
-      },
-    ],
-    github: "https://github.com/Jaisapthagiri/Ecommerce",
-    link: "https://ecom-fe-six.vercel.app",
-  },
-  {
     id: 4,
     title: "Quick Chat",
     description:
@@ -139,30 +138,7 @@ const Proj = [
     ],
     github: "https://github.com/Jaisapthagiri/QuickChat",
     link: "https://chat-self-omega-49.vercel.app"
-  },
-  {
-    id: 5,
-    title: "Forever",
-    description:
-      "Forever is a modern e-commerce platform built with React and Tailwind CSS, designed for a smooth and responsive shopping experience with product browsing, cart, and checkout functionality.",
-    image: Forever,
-    tags: [
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "ReactJs"
-    ],
-    category: "Ecommerce",
-    member: [
-      {
-        name: "Jaisapthagiri",
-        img: jai,
-      },
-    ],
-    github: "https://github.com/Jaisapthagiri/Forever",
-    link: "https://forever-olive.vercel.app",
-  },
-
+  }
 ];
 
 

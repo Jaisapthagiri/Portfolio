@@ -17,6 +17,11 @@ const Skill = [
           "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
       {
+        name: "BootStrap",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/bootstrap_logo.svg",
+      },
+      {
         name: "JavaScript", 
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
@@ -32,8 +37,12 @@ const Skill = [
     title: "Backend",
     skills: [
       {
-        name: "Java",
-        image: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+        name: "Python",
+        image: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+      },
+      {
+        name: "Djanog",
+        image: "https://www.vectorlogo.zone/logos/django/django-icon.svg",
       },
       {
         name: "Node Js",
