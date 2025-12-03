@@ -21,7 +21,7 @@ const Proj = [
       "Node JS",
       "Express JS",
       "MongoDB",
-      "SSE"
+      "Socket.io"
     ],
     category: "Social Media App",
     member: [
