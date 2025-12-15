@@ -41,7 +41,7 @@ const Skill = [
         image: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
       },
       {
-        name: "Djanog",
+        name: "Django",
         image: "https://www.vectorlogo.zone/logos/django/django-icon.svg",
       },
       {
